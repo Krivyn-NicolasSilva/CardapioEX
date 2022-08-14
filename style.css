@@ -1,0 +1,76 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    color:black;
+    background-color:darksalmon;
+}
+
+h1, h2, h3, .price{
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+}
+
+/*Cabeçalho*/
+header{
+    text-align: center;
+    background-color: darksalmon;
+}
+
+header h1{
+    color:darkblue;
+    padding: 32px 32px 4px;
+}
+
+header p{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/*Conteudo*/
+header, section, h2,li{
+    max-width: 300px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 3px;
+    font-style: italic;
+    color:darkgrey;
+}
+
+header ul li{
+    margin-bottom: 12px;
+}
+
+div p{
+    font-size: 14px;
+    color: #00000090;
+}
+
+section h2{
+    margin-bottom: 24px;
+    padding: 8px;
+    text-align: center;
+    background-color:coral;
+}
+
+section ul{
+    margin-bottom: 24px;
+    list-style: none;
+}
+
+section ul li{
+    margin: 16px;
+    display: flex;
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+div p{
+    max-width: 240px;
+}
+
